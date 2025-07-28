@@ -1,0 +1,29 @@
+{
+  "name": "node",
+  "version": "1.0.0",
+  "description": "Text-based AI Chat Interface using Google Generative AI",
+  "main": "chat.js",
+  "type": "module",
+  "scripts": {
+    "test": "node test.js",
+    "chat": "node index.js",
+    "firebase-chat": "node index.js",
+    "server": "node chat.js"
+  },
+  "keywords": [
+    "ai",
+    "chat",
+    "generative-ai",
+    "nlp",
+    "text-interface"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@google/generative-ai": "^0.24.1",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.1",
+    "express": "^5.1.0",
+    "firebase-admin": "^12.7.0"
+  }
+}
